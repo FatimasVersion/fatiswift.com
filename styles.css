@@ -94,4 +94,17 @@ body {
     .main {
         width: 100%;
     }
+
+    .menu-titulo{
+        width: 100%;
+    }
+
+    .guitarra {
+        width: 200px;
+    }
+
+    .img-fati{
+        width: 100%;
+    }
+
 }
