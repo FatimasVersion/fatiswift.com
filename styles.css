@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #580E03;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: "RhymeTH FORM";
+    font-size: 50px;
+    margin: 20px;
+}
+
+.menu-titulo{
+    display: flex
+}
+
+.container {
+    background-color: #FFC993;
+    top: 10px;
+    position: relative;
+    width: 70%;
+    height: 150px;
+}
+
+.descripcion {
+    background-color: #FFC993;
+    padding: 10px;
+}
+
+.cancion {
+    text-align: center;
+    background-color: #FFC993;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.cancion video {
+    width: 100%;
+    height: auto;
+}
+
+.menu-opciones {
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.lista-opciones {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: linear-gradient(to bottom, white, black); 
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+    width: 100%;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;      /* Espaciado interno */
+    color: white;            /* Texto en blanco */
+    text-decoration: none;   /* Bordes redondeados */
+    font-family: sans-serif; /* Fuente limpia */
+    font-size: 16px;
+}
+
+.main {
+    background-color: #C3562D;
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 180px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
